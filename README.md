@@ -162,11 +162,13 @@ ai_resume_platform/
 
 ---
 
-### 2. Move Project to XAMPP Web Directory
-Copy or clone the `ai_resume_platform` folder into your XAMPP `htdocs` directory:
+### 2. Clone or Setup Project Directory
+Clone the repository from GitHub:
+```powershell
+git clone https://github.com/SanjayGL-8123/ai-resume-matcher.git
+cd ai-resume-matcher
 ```
-C:\xampp\htdocs\ai_resume_platform
-```
+*(If using XAMPP Apache, place or clone the folder inside `C:\xampp\htdocs\ai-resume-matcher`).*
 
 ---
 
@@ -330,4 +332,17 @@ python job_collector.py
 ---
 
 ## License
-This project is open-source and licensed under the [MIT License](LICENSE).
+
+This project is open-source and licensed under the **[MIT License](LICENSE)** &copy; 2026 Sanjay G L.
+
+```text
+MIT License
+Copyright (c) 2026 Sanjay G L
+```
+
+### Permissions & Conditions
+- **Permissions**: Commercial use, Modification, Distribution, Private use.
+- **Conditions**: Preservation of copyright and license notice.
+- **Limitations**: No liability, No warranty.
+
+For the full legal text, refer to the [LICENSE](LICENSE) file.
