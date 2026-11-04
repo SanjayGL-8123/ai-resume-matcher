@@ -75,7 +75,7 @@ header_html('Login');
         <div class="mb-3">
           <label class="form-label small fw-semibold text-secondary">Username or Email</label>
           <div class="input-group">
-            <span class="input-group-text bg-light"><i class="bi bi-person"></i></span>
+            <span class="input-group-text"><i class="bi bi-person"></i></span>
             <input class="form-control" name="username" value="<?=h($username_val)?>" placeholder="Username or email" required autofocus>
           </div>
         </div>
@@ -83,7 +83,7 @@ header_html('Login');
         <div class="mb-3">
           <label class="form-label small fw-semibold text-secondary">Password</label>
           <div class="input-group">
-            <span class="input-group-text bg-light"><i class="bi bi-shield-lock"></i></span>
+            <span class="input-group-text"><i class="bi bi-shield-lock"></i></span>
             <input class="form-control" type="password" id="passwordInput" name="password" placeholder="Enter password" required>
             <button class="btn btn-outline-secondary" type="button" onclick="togglePasswordVisibility()">
               <i class="bi bi-eye" id="toggleIcon"></i>
@@ -103,7 +103,7 @@ header_html('Login');
     </div>
 
     <!-- Helpful initial setup box -->
-    <div class="card mt-3 bg-light border-0 p-3 small text-muted">
+    <div class="card mt-3 p-3 small text-muted">
       <div class="d-flex align-items-start">
         <i class="bi bi-info-circle-fill text-primary me-2 mt-1"></i>
         <div>

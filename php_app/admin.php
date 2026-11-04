@@ -236,7 +236,7 @@ header_html('Admin Dashboard');
 
 <!-- Students Directory & Analytics Table -->
 <div class="card shadow-sm border-0 mb-4">
-  <div class="card-header bg-white py-3 border-bottom d-flex justify-content-between align-items-center">
+  <div class="card-header bg-transparent py-3 border-bottom d-flex justify-content-between align-items-center">
     <h5 class="fw-bold mb-0 text-dark"><i class="bi bi-people-fill text-primary me-2"></i>Registered Students &amp; Performance</h5>
     <span class="badge bg-light text-dark border"><?=count($students)?> Students</span>
   </div>
@@ -298,7 +298,7 @@ header_html('Admin Dashboard');
 
 <!-- Admin Activity Logs -->
 <div class="card shadow-sm border-0 mb-4">
-  <div class="card-header bg-white py-3 border-bottom">
+  <div class="card-header bg-transparent py-3 border-bottom">
     <h6 class="fw-bold mb-0 text-dark"><i class="bi bi-journal-text text-primary me-2"></i>Recent System Activity Logs</h6>
   </div>
   <div class="card-body p-0">

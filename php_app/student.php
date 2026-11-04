@@ -194,7 +194,7 @@ header_html('Student Dashboard');
 
 <!-- Resume Analysis Report -->
 <div class="card shadow-sm border-0 mb-4 overflow-hidden">
-  <div class="card-header bg-white py-3 border-bottom">
+  <div class="card-header bg-transparent py-3 border-bottom">
     <div class="d-flex flex-wrap justify-content-between align-items-center">
       <div>
         <h5 class="fw-bold mb-0 text-dark"><i class="bi bi-file-earmark-check-fill text-primary me-2"></i>ATS Analysis: <?=h($analysis['file_name'])?></h5>

@@ -89,7 +89,7 @@ header_html('Student Registration');
         <div class="mb-3">
           <label class="form-label small fw-semibold text-secondary">Full Name</label>
           <div class="input-group">
-            <span class="input-group-text bg-light"><i class="bi bi-person-badge"></i></span>
+            <span class="input-group-text"><i class="bi bi-person-badge"></i></span>
             <input class="form-control" name="name" value="<?=h($name_val)?>" placeholder="e.g. John Doe" required autofocus>
           </div>
         </div>
@@ -97,7 +97,7 @@ header_html('Student Registration');
         <div class="mb-3">
           <label class="form-label small fw-semibold text-secondary">Username</label>
           <div class="input-group">
-            <span class="input-group-text bg-light"><i class="bi bi-at"></i></span>
+            <span class="input-group-text"><i class="bi bi-at"></i></span>
             <input class="form-control" name="username" value="<?=h($username_val)?>" placeholder="Choose a username" required>
           </div>
         </div>
@@ -105,7 +105,7 @@ header_html('Student Registration');
         <div class="mb-3">
           <label class="form-label small fw-semibold text-secondary">Email Address</label>
           <div class="input-group">
-            <span class="input-group-text bg-light"><i class="bi bi-envelope"></i></span>
+            <span class="input-group-text"><i class="bi bi-envelope"></i></span>
             <input class="form-control" type="email" name="email" value="<?=h($email_val)?>" placeholder="name@example.com" required>
           </div>
         </div>
