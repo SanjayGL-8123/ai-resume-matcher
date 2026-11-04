@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+python-multipart
+PyMuPDF
+python-docx
+scikit-learn
+mysql-connector-python
+requests
+python-dotenv
+apscheduler
